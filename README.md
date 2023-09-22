@@ -1,6 +1,6 @@
 # credit-risk-classification
 ##Background:
-use a dataset of historical lending activity from a peer-to-peer lending services company to build a model that can identify the creditworthiness of borrowers.
+use a dataset of historical lending activity from a peer-to-peer lending services company to build a model that can identify the creditworthiness of borrowers.There are two category healthy loan (good credict or good payment history), and high risk loan(bad credict or low payment history or don't pay on time). So Bank has to predict how many percent in high risk loan depend on some factors like mainly size of the loan, interest rate, income, dept etc.
 . Split the Data into Training and Testing Sets
 
 . Create a Logistic Regression Model with the Original Data
@@ -24,9 +24,9 @@ This is oversamples data , classification
 
 
 
-
 An overview of the analysis: Explain the purpose of this analysis.
 
-The results: Using a bulleted list, describe the accuracy score, the precision score, and the recall score of the machine learning model.
-
-A summary: Summarize the results from the machine learning model. Include your justification for recommending the model for use by the company. Resampled data prediction is better. Accuracy and recall are both 100%. That means prediction is true.
+The results: 
+comparatively, oversampled data prediction is preferred over the original sampled ones. recall value is 1.00 in oversampled, that means prediction of high risk loan is 100% correct.
+False negative(error showing, actually they are in high risk loan category, but not showing in the actual value(558 or 623) is down from 67 to 2, 
+This means error is less in the over sampled data, to give strong prediction in high risk loan.Bank can give attention to the potential high risk people and to find the fraudulants too. Bank can investagate the reason behind the high risk loans and take proper decsions thta help to hold the company growth.
