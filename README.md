@@ -13,6 +13,9 @@ Fit a logistic regression model by using the training data (X_train and y_train)
 Save the predictions for the testing data labels by using the testing feature data (X_test) and the fitted model.
 
 Evaluate the model’s performance by doing the following:
+original data classification
+<img width="398" alt="image" src="https://github.com/stargily2017/credit-risk-classification/assets/117419179/0fe36adb-379e-4c58-a870-d13a54640ff5">
+
 
 Generate a confusion matrix.
 This is oversamples data , classification
