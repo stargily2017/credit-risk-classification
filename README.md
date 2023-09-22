@@ -16,15 +16,9 @@ Evaluate the model’s performance by doing the following:
 
 Generate a confusion matrix.
 
-Print the classification report.
-            precision    recall  f1-score   support
+<img width="473" alt="image" src="https://github.com/stargily2017/credit-risk-classification/assets/117419179/becfc431-e498-4136-80fe-9a4882e35882">
 
-  healthy loan       1.00      1.00      1.00     18759
-high-risk loan       0.87      1.00      0.93       625
 
-      accuracy                           1.00     19384
-     macro avg       0.94      1.00      0.96     19384
-  weighted avg       1.00      1.00      1.00     19384
 
 
 An overview of the analysis: Explain the purpose of this analysis.
