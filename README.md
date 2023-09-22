@@ -15,6 +15,7 @@ Save the predictions for the testing data labels by using the testing feature da
 Evaluate the model’s performance by doing the following:
 
 Generate a confusion matrix.
+This is oversamples data , classification
 
 <img width="473" alt="image" src="https://github.com/stargily2017/credit-risk-classification/assets/117419179/becfc431-e498-4136-80fe-9a4882e35882">
 
