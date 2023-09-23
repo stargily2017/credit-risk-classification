@@ -1,6 +1,6 @@
 # credit-risk-classification
 ##Background:
-use a dataset of historical lending activity from a peer-to-peer lending services company to build a model that can identify the creditworthiness of borrowers.There are two category healthy loan (good credict or good payment history), and high risk loan(bad credict or low payment history or don't pay on time). So Bank has to predict how many percent in high risk loan depend on some factors like mainly size of the loan, interest rate, income, dept etc.
+use a dataset of historical lending activity from a peer-to-peer lending services company to build a model that can identify the creditworthiness of borrowers.There are two category healthy loan (good credit or good payment history), and high_risk loan(bad credit or low payment history or don't pay on time).So Bank has to predict how many percent of high risk loan depend on some factors like mainly size of the loan, interest rate, income, debt etc.
 . Split the Data into Training and Testing Sets
 
 . Create a Logistic Regression Model with the Original Data
